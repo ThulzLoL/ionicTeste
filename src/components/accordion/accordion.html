@@ -1,0 +1,27 @@
+<ion-card>
+  <ion-card-header class="card" (click)="toggleAccordion()">
+      <ion-row align-items-center>
+        <ion-col col-2>
+          <div><img  src="../../assets/imgs/teste.png" alt=""></div>
+        </ion-col>
+        <ion-col col-3>
+            {{ title }}<br>
+            {{ title }}
+        </ion-col>
+        <ion-col offset-2 col-3 >
+          <div float-right>
+            {{ title }}
+          </div>
+        </ion-col>
+        <ion-col col-2 >
+            <div text-center>
+              <ion-icon name="arrow-down"></ion-icon>
+            </div>
+          </ion-col>
+      </ion-row>
+  </ion-card-header>
+  <ion-card-content #cc>
+    oioioi
+  </ion-card-content>
+</ion-card>
+

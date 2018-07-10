@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-navbar class="background" color="primary">
+    <ion-title>Pessoas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button ion-button color="primary" block (click)="doConfirm()">Show Confirm Alert</button>
+    <accordion *ngFor="let user of users" [title]="user.name"></accordion>
+</ion-content>
